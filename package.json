@@ -1,0 +1,23 @@
+{
+  "name": "pasaportecovid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "resultado.js",
+  "directories": {
+    "dev": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.4.16"
+  }
+}

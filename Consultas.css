@@ -1,0 +1,143 @@
+.u-section-1 {
+  background-image: url("np://user.desktop.localhost/Site_648006236/images/pasa.jpg?rand=2e97");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 577px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 400;
+  margin: 58px 422px 0 auto;
+}
+
+.u-section-1 .u-form-1 {
+  height: 241px;
+  margin: 58px 242px 0 302px;
+}
+
+.u-section-1 .u-form-group-1 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-1 {
+  font-weight: 400;
+}
+
+.u-section-1 .u-input-1 {
+  font-weight: 400;
+}
+
+.u-section-1 .u-label-2 {
+  font-weight: 400;
+}
+
+.u-section-1 .u-input-2 {
+  font-weight: 400;
+}
+
+.u-section-1 .u-btn-1 {
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -54px 471px 0 auto;
+  padding: 11px 31px 12px 30px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -45px 242px 60px auto;
+  padding: 11px 42px 12px 40px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 476px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 348px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 142px;
+    margin-left: 202px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 271px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 42px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 365px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 267px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 32px;
+    margin-left: 92px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 51px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 274px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 200px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 173px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 126px;
+  }
+}

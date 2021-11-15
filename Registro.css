@@ -1,0 +1,182 @@
+.u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 980px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: none;
+  width: 841px;
+  text-decoration: underline !important;
+  margin: 64px auto 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 338px;
+  width: 1107px;
+  margin: 23px auto 0;
+}
+
+.u-section-1 .u-form-group-1 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-3 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-7 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-8 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-9 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-10 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-11 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-12 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-13 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-size: 0.875rem;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: -57px auto 0 186px;
+  padding: 10px 18px 10px 16px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -45px auto 60px 33px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-form-1 {
+    width: 940px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}= 1 && strlen($_POST['NUMERO_DOCUMENTO']) > 0 && strlen($_POST['NOMBE_APELLIDO']) > 0 && strlen($_POST['CIUDAD']) > 0 && strlen($_POST['REGIMEN']) > 0 && strlen($_POST['EPS']) > 0 && strlen($_POST['CENTRO_ATENCION']) > 0 && strlen($_POST['FECHA_PRUEBA']) > 0 && strlen($_POST['RESULTADO']) > 0 && strlen($_POST['TIPO_VACUNA']) > 0 && strlen($_POST['LUGAR_VACUNACION']) > 0 && strlen($_POST['FECHA_PRIMERA_DOSIS']) > 0 && strlen($_POST['FECHA_SEGUNDA_DOSIS']) > 0) {
+            $TIPO_DOCUMENTO = trim($_POST['TIPO_DOCUMENTO']);
+            $NUMERO_DOCUMENTO = trim($_POST['NUMERO_DOCUMENTO']);
+            $NOMBE_APELLIDO = trim($_POST['NOMBE_APELLIDO']);
+            $CIUDAD =  trim($_POST['CIUDAD']);
+            $REGIMEN = trim($_POST['REGIMEN']);
+            $EPS = trim($_POST['EPS']);
+            $CENTRO_ATENCION = trim($_POST['CENTRO_ATENCION']);
+            $FECHA_PRUEBA = trim($_POST['FECHA_PRUEBA']);
+            $RESULTADO = trim($_POST['RESULTADO']);
+            $TIPO_VACUNA = trim($_POST['TIPO_VACUNA']);
+            $LUGAR_VACUNACION = trim($_POST['LUGAR_VACUNACION']);
+            $FECHA_PRIMERA_DOSIS = trim($_POST['FECHA_PRIMERA_DOSIS']);
+            $FECHA_SEGUNDA_DOSIS = trim($_POST['FECHA_SEGUNDA_DOSIS']);
+            $consulta = "INSERT INTO registro(TIPO_DOCUMENTO, NUMERO_DOCUMENTO, NOMBE_APELLIDO, CIUDAD, REGIMEN, EPS, CENTRO_ATENCION, FECHA_PRUEBA, RESULTADO, TIPO_VACUNA, LUGAR_VACUNACION, FECHA_PRIMERA_DOSIS, FECHA_SEGUNDA_DOSIS) VALUES ('TIPO_DOCUMENTO', 'NUMERO_DOCUMENTO', 'NOMBE_APELLIDO', 'CIUDAD', 'REGIMEN', 'EPS', 'CENTRO_ATENCION', 'FECHA_PRUEBA', 'RESULTADO', 'TIPO_VACUNA', 'LUGAR_VACUNACION', 'FECHA_PRIMERA_DOSIS', 'FECHA_SEGUNDA_DOSIS')";
+            $resultado = mysqli_query($conexion, $consulta);
+            if ($resultado) {
+                ?>
+                ¡Los datas fueron ingresados correctamente!
+                
+                ¡Error al ingresar los datos!  
+                
+      
+      
+    	
+		
+		
+			
+	
+	
+	
+		
+			
+				
+					
+						REGISTRO GUARDADO
+						
+						ERROR AL GUARDAR
+					
+					
+					REGRESAR 
