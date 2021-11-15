@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="es">
+<html style="font-size: 16px;" lang="es-CO">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Consultas</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-    <link rel="stylesheet" href="Consultas.css" media="screen">
+<link rel="stylesheet" href="Consultas.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.28.7, nicepage.com">
@@ -36,18 +36,18 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Pasaporte-Covid.php" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Para-que-sirve.php" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Estadisticas.php" style="padding: 10px 20px;">ESTADISTICAS</a>
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Pasaporte-Covid.html" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Para-que-sirve.html" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Estadisticas.html" style="padding: 10px 20px;">ESTADISTICAS</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Pasaporte-Covid.php" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Para-que-sirve.php" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Estadisticas.php" style="padding: 10px 20px;">ESTADISTICAS</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Pasaporte-Covid.html" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Para-que-sirve.html" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Estadisticas.html" style="padding: 10px 20px;">ESTADISTICAS</a>
 </li></ul>
               </div>
             </div>
@@ -80,21 +80,34 @@
               <input type="email" placeholder="Ingrese el Nùmero de Documento" id="email-e475" name="Numero_Documento" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-39 u-text-palette-1-base u-white u-input-2" required="">
             </div>
             <div class="u-align-left u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-radius-50 u-btn-1">CONSULTAR</a>
-              <input type="submit" value="submit" class="u-form-control-hidden" name="Consultar">
+              <a href="Registro.php" data-page-id="1338014351" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-4">CONSULTAR</a>
+              <input type="Consultar" value="Consultar" class="u-form-control-hidden" name="Consultar">
             </div>
             <div class="u-form-send-message u-form-send-success"> Gracias! Tu mensaje ha sido enviado. </div>
             <div class="u-form-send-error u-form-send-message"> No se puede enviar su mensaje. Por favor, corrija los errores y vuelva a intentarlo. </div>
             <input type="hidden" value="" name="recaptchaResponse">
           </form>
         </div>
-        <a href="Index.php" data-page-id="766706655" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2">REGRESAR</a>
-        <a href="https://google.com" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">SALIR</a>
+        <a href="Index.php" data-page-id="766706655" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2">Regresar</a>
+        <a href="https://google.com" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">Salir</a>
       </div>
     </section>
+    
+    
     <footer class="u-align-center u-clearfix u-footer u-gradient u-footer" id="sec-c6e2"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">Creado Por: Diego Fernando Navarrete Acuña&nbsp;<br>Liderado Por: Jaider Ospina Navas
         </p>
       </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="html-templates" target="_blank">
+        <span>HTML Template</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="static-site-generator" target="_blank">
+        <span>Static Site Generator</span>
+      </a>. 
+    </section>
   </body>
 </html>
