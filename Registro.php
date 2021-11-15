@@ -147,7 +147,7 @@
               <input type="date" placeholder="MM/DD/YYYY" id="date-642b" name="Fecha_Segunda_Dosis" class="u-border-1 u-border-palette-1-base u-input u-input-rectangle u-text-palette-1-base" required="">
             </div>
             <div class="u-align-left u-form-group u-form-submit">
-              <a href="Consultas.php" data-page-id="359922106" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">GUARDAR</a>
+              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-radius-50 u-btn-1">Submit</a>
               <input type="submit" value="submit" class="u-form-control-hidden">
             </div>
             <div class="u-form-send-message u-form-send-success">Los datos ingresados correctamente.</div>
@@ -156,6 +156,7 @@
           </form>
         </div>
         <a href="Index.php" data-page-id="766706655" class="u-btn u-btn-round u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-radius-50 u-btn-2">REGRESAR</a>
+        <a href="Consultas.html" data-page-id="359922106" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">GUARDAR</a>
       </div>
     </section>
     <footer class="u-align-center u-clearfix u-footer u-gradient u-footer" id="sec-c6e2"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
