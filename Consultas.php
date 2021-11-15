@@ -80,7 +80,7 @@
               <input type="email" placeholder="Ingrese el Nùmero de Documento" id="email-e475" name="Numero_Documento" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-39 u-text-palette-1-base u-white u-input-2" required="">
             </div>
             <div class="u-align-left u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-radius-50 u-btn-1">ENVIAR</a>
+              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-radius-50 u-btn-1">CONSULTAR</a>
               <input type="submit" value="submit" class="u-form-control-hidden" name="Consultar">
             </div>
             <div class="u-form-send-message u-form-send-success"> Gracias! Tu mensaje ha sido enviado. </div>
