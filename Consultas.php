@@ -36,18 +36,18 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Pasaporte-Covid.html" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Para-que-sirve.html" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Estadisticas.html" style="padding: 10px 20px;">ESTADISTICAS</a>
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Pasaporte-Covid.php" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Para-que-sirve.php" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-palette-1-base" href="Estadisticas.php" style="padding: 10px 20px;">ESTADISTICAS</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Pasaporte-Covid.html" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Para-que-sirve.html" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Estadisticas.html" style="padding: 10px 20px;">ESTADISTICAS</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Pasaporte-Covid.php" target="_blank" style="padding: 10px 20px;">¿QUÈ ES EL PASAPORTE COVID?</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Para-que-sirve.php" target="_blank" style="padding: 10px 20px;">PARA QUE SIRVE</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Estadisticas.php" style="padding: 10px 20px;">ESTADISTICAS</a>
 </li></ul>
               </div>
             </div>
@@ -75,13 +75,13 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
               </div>
             </div>
-            <div class="u-form-email u-form-group">
-              <label for="email-e475" class="u-label u-text-palette-1-base u-label-2">Nùmero de Documebnto</label>
-              <input type="email" placeholder="Ingrese el Nùmero de Documento" id="email-e475" name="Numero_Documento" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-39 u-text-palette-1-base u-white u-input-2" required="">
+            <div class="u-form-group">
+              <label for="email-e475" class="u-label u-text-palette-1-base u-label-2">Nùmero de Documento</label>
+              <input placeholder="Ingrese el Nùmero de Documento" id="email-e475" name="Numero_Documento" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-39 u-text-palette-1-base u-white u-input-2" required="required" type="text">
             </div>
             <div class="u-align-left u-form-group u-form-submit">
-              <a href="Registro.php" data-page-id="1338014351" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-4">CONSULTAR</a>
-              <input type="Consultar" value="Consultar" class="u-form-control-hidden" name="Consultar">
+              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-radius-50 u-btn-1">CONSULTAR</a>
+              <input type="submit" value="submit" class="u-form-control-hidden" name="Consultar">
             </div>
             <div class="u-form-send-message u-form-send-success"> Gracias! Tu mensaje ha sido enviado. </div>
             <div class="u-form-send-error u-form-send-message"> No se puede enviar su mensaje. Por favor, corrija los errores y vuelva a intentarlo. </div>
@@ -90,6 +90,7 @@
         </div>
         <a href="Index.php" data-page-id="766706655" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2">Regresar</a>
         <a href="https://google.com" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">Salir</a>
+        <a href="Registro.php" data-page-id="1338014351" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-4">CONSULTAR</a>
       </div>
     </section>
     
@@ -98,16 +99,5 @@
         <p class="u-small-text u-text u-text-variant u-text-1">Creado Por: Diego Fernando Navarrete Acuña&nbsp;<br>Liderado Por: Jaider Ospina Navas
         </p>
       </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="html-templates" target="_blank">
-        <span>HTML Template</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="static-site-generator" target="_blank">
-        <span>Static Site Generator</span>
-      </a>. 
-    </section>
   </body>
 </html>
