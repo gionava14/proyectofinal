@@ -148,7 +148,7 @@
             </div>
             <div class="u-align-left u-form-group u-form-submit">
             <a href="Consultas.html" data-page-id="359922106" class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">GUARDAR</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
+              <input type="Guardar" value="Guardar" class="u-form-control-hidden">
             </div>
             <div class="u-form-send-message u-form-send-success">Los datos ingresados correctamente.</div>
             <div class="u-form-send-error u-form-send-message">Error, datos incorrectos.</div>
